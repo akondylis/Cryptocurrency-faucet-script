@@ -1,18 +1,12 @@
 Cryptocurrency-faucet-script
 ============================
 * A big THANK YOU goes to a friend who provided the script and requested to not be named.
-* We would love it if you let us know that you are using the script so we can showcase your website on bitcoinproject.net
-
-DEMO: http://wow.bitcoinproject.net/
-
-For those who are looking for a faucet script that supports multiple coins:
-http://cryptocurrency-scripts.com/index.php?page=item&id=10
 
 Faucet features:
 
-- Can be used for the most cryptocurrencys
+- Can be used for the most cryptocurrencies
 - Minimum and maximum payouts can be set
-- Payment system for staged,timed or direct payouts
+- Payment system for staged, timed or direct payouts
 - Recaptcha integrated (http://www.google.com/recaptcha/) IMPORTANT: Please note that Recaptcha2 can be set within the config file. Version 2 will be released shortly directly from google and is already implimented within the script.
 - Proxies filter option
 - Promocodes possible for extra payouts
@@ -42,9 +36,3 @@ Go to your database and find the "sf_promo_codes table". Add a new line and set 
 - uses = 0 // Promo code disabled
 - uses = -1 // No limit on using this code
 - uses = 50 // The code counts down until 0 and works e.g. 50 times
-
-
-
-Feel free to donate :)
-- BTC: 1Av1sFhiWVzhcgxPMsZXni4q5fYCMtR2jE
-- DOGE: DLoveeefqGPuEqZvc7PXNt2mvu36YPXcGb
